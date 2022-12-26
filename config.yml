@@ -3,10 +3,11 @@ languageCode: en-us
 title: Jannatin Naim's Blog
 theme: PaperMod
 
+buildDrafts: true
+
 params:
   env: production
   description: Developer | Content Creator | Student
-  author: ["Me"]
   keywords: ["jannatin naim", "jnaimxiii", "blog", "developer"]
 
   defaultTheme: auto
