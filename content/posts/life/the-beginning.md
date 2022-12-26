@@ -3,7 +3,7 @@ draft: true
 title: "The Beginning"
 description: "Let's give this a shot."
 date: "2022-12-26T16:57:59+06:00"
-tags: ["log"]
+tags: ["life", "log"]
 categories: ["story"]
 ---
 
