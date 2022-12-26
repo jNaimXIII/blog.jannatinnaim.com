@@ -1,0 +1,96 @@
+baseURL: http://blog.jannatinnaim.com/
+languageCode: en-us
+title: Jannatin Naim's Blog
+theme: PaperMod
+
+params:
+  env: production
+  description: Developer | Content Creator | Student
+  author: ["Me"]
+  keywords: ["jannatin naim", "jnaimxiii", "blog", "developer"]
+
+  defaultTheme: auto
+
+  ShowToc: true
+  ShowWordCount: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowFullTextinRSS: true
+  ShowRssButtonInSectionTermList: true
+  ShowShareButtons: true
+  ShareButtons: ["twitter", "linkedin", "facebook"]
+
+  enableEmoji: true
+  hideFooter: true
+
+  homeInfoParams:
+    Title: Heyo! How's it going?
+    Content: Developer | Content Creator | Student
+
+  socialIcons:
+    - name: "GitHub"
+      url: "https://github.com/jNaimXIII"
+    - name: "YouTube"
+      url: "https://youtube.com/@jNaimXIII"
+    - name: "twitter"
+      url: "https://twitter.com/jNaimXIII"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/jNaimXIII"
+
+  fuseOpts:
+    includeMatches: true
+    minMatchCharLength: 2
+    distance: 800
+    keys: ["title", "permalink", "summary", "content"]
+
+  cover:
+    linkFullImages: true
+    relative: true
+
+  editPost:
+    URL: "https://github.com/jNaimXIII/blog.jannatinnaim.com/blob/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  comments: true
+
+  assets:
+    favicon: "/favicon.png"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 1
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 2
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 3
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 4
+    - identifier: portfolio
+      name: portfolio
+      url: https://jannatinnaim.com
+      weight: 5
+
+markup:
+  highlight:
+    style: onedark
+
+minify:
+  minifyOutput: true
