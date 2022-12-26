@@ -60,6 +60,10 @@ params:
   assets:
     favicon: "/favicon.png"
 
+  analytics:
+    google:
+      SiteVerificationTag: G-ZG7HCYRF2H
+
 outputs:
   home:
     - HTML
