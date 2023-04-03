@@ -59,6 +59,7 @@ params:
 
   assets:
     favicon: "/favicon.png"
+    # disableHLJS: true
 
   analytics:
     google:
@@ -96,6 +97,18 @@ menu:
 markup:
   highlight:
     style: onedark
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    anchorLineNos: false
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNumbersInTable: true
+    noClasses: true
+    noHl: false
+    tabWidth: 2
 
 minify:
   minifyOutput: true
