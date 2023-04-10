@@ -1,7 +1,4 @@
-<script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=G-ZG7HCYRF2H"
-></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZG7HCYRF2H"></script>
 
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -13,18 +10,13 @@
   gtag("config", "G-ZG7HCYRF2H");
 </script>
 
-<script
-  async
-  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6801515871348779"
-  crossorigin="anonymous"
-></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6801515871348779"
+  crossorigin="anonymous"></script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&display=swap"
-  rel="stylesheet"
-/>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+  rel="stylesheet" />
 
 <style>
   .highlight code {
@@ -32,7 +24,6 @@
   }
 </style>
 
-<link
-  rel="stylesheet"
-  href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css"
-/>
+{{ if or .Params.math .Site.Params.math }} {{ partial "math.html" . }} {{ end }}
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css" />
