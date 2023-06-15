@@ -1,4 +1,11 @@
-# What is a server?
+---
+title: 02. What is a server?
+date: "2023-06-16T05:57:55+06:00"
+tags:
+  - backend
+categories:
+  - fullstack-commando
+---
 
 Anything that provides something is a server. In case of computers and backends,
 a server is a computer that serves a particular type of resource. One that is
