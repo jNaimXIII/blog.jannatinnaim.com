@@ -7,15 +7,31 @@ categories:
   - fullstack-commando
 ---
 
-A backend is an abstract concept. Any piece of code that can run on a machine is a backend. If that code is being used by another piece of code, it is the backend of that other code. In turn, if the code uses another piece of code, it becomes a frontend to that piece of code.
+A backend is an abstract concept. Any piece of code that can run on a machine
+is a backend. If that code is being used by another piece of code, it is the
+backend of that other code. In turn, if the code uses another piece of code, it
+becomes a frontend to that piece of code.
 
-In simpler terms, anything being used by another entity without knowing the inner workings of that thing is a backend. The role of a backend developer is to expose a way to solve a business problem.
+In simpler terms, anything being used by another entity without knowing the
+inner workings of that thing is a backend. The role of a backend developer is
+to expose a way to solve a business problem.
 
-A kitchen of a restaurant can be a metaphor for a backend. The cooks cook food which we as a customer don't have any idea about. We just order via a waiter and he takes care of placing our order to the chefs and getting us our desired dish. In this sense, the kitchen is the backend of the restaurant where the food is being cooked and served from. The waiter that is mediating between the chefs and customers is analogous to an API through which we communicate with the backend. Finally, the dish that is being served to us is the resource of that restaurant that the backend is providing.
+A kitchen of a restaurant can be a metaphor for a backend. The cooks cook food
+which we as a customer don't have any idea about. We just order via a waiter
+and he takes care of placing our order to the chefs and getting us our desired
+dish. In this sense, the kitchen is the backend of the restaurant where the
+food is being cooked and served from. The waiter that is mediating between the
+chefs and customers is analogous to an API through which we communicate with
+the backend. Finally, the dish that is being served to us is the resource of
+that restaurant that the backend is providing.
 
 ## What's an User Interface?
 
-The way a user accesses/uses a particular entity is that entity's user interface. It's something we can see, touch or feel but, won't know what it's doing to get the results it is producing. The backend should not be visible to the end-user and only should be accessed via an interface. ## Perspectives of Backend Development
+The way a user accesses/uses a particular entity is that entity's user
+interface. It's something we can see, touch or feel but, won't know what it's
+doing to get the results it is producing. The backend should not be visible to
+the end-user and only should be accessed via an interface. ## Perspectives of
+Backend Development
 
 - Programmer
   - Write business logic and allow other entities to use its features.
