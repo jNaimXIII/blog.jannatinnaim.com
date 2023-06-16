@@ -59,6 +59,16 @@ Backend Development
 - Operating System
 - Networking
 
+## Points to Remember
+
+- Backend is an abstract concept.
+- Backend is something that is being used by another entity.
+- Backend is not visible to the end-user.
+- Backend is accessed via an interface.
+- Backend is a set of technologies.
+- Backend is a set of skills.
+- Backend is a set of responsibilities.
+
 ## References
 
 - [Lecture Notes](https://hmnayem.notion.site/Lecture-1-02-05-2023-eb352313488c4b9fbadaded9c3820320)

@@ -86,6 +86,11 @@ will process them in the order they were received.
 
 ## HTTP Server in Node.js
 
+Node.js has a built-in HTTP module that can be used to create a server. The
+`createServer` method of the HTTP module takes a callback function that is
+responsible for handling the requests and sending a response. The server will
+listen on a specific port for incoming requests.
+
 ```javascript
 const http = require("http");
 
@@ -99,6 +104,23 @@ server.listen(3000, () => {
   console.log("Server is listening on port 3000");
 });
 ```
+
+## Queries
+
+- Why is it called a "client-server" architecture and not a "request-response" architecture?
+
+## Points to Remember
+
+- A server is a computer that serves a particular type of resource.
+- A protocol is a common medium or code that the client and server uses to communicate with each other.
+- HTTP is a protocol that is used to communicate between the client and server.
+- A resource is anything that can be requested by the client.
+- A request is sent from the client to the server with an HTTP method, headers and optionally a body.
+- A response is sent from the server to the client with a status code, headers and optionally a body.
+- HTTP requests are asynchronous in nature.
+- A server can process multiple requests at a time.
+- A port can be used by the server to listen for incoming requests.
+- One port can be used by only one server at a time.
 
 ## References
 
